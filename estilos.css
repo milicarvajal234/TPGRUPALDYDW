@@ -513,3 +513,45 @@ h2 {
     height: 260px;
   }
 }
+
+/* ================================ */
+/*  FIX RESPONSIVE GASTRONOMIA     */
+/* ================================ */
+
+@media (max-width: 768px) {
+
+  .gastronomia-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .gastronomia-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .gastronomia-card img {
+    height: 180px !important;
+    object-fit: cover !important;
+  }
+
+  /* ================================ */
+  /*  FIX RESPONSIVE CONTACTO        */
+  /* ================================ */
+
+  .contacto-container {
+    grid-template-columns: 1fr !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .contacto-info,
+  .formulario-contacto {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .formulario-contacto form {
+    width: 100% !important;
+  }
+}
+
